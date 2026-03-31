@@ -1,0 +1,15 @@
+{
+  "name": "ship-official",
+  "plugins": {
+    "hello-world": {
+      "name": "hello-world",
+      "displayName": "Hello World",
+      "description": "Example plugin that greets users",
+      "type": "skill",
+      "category": "example",
+      "tags": ["example", "greeting"],
+      "source": "./plugins/hello-world",
+      "configSchema": {}
+    }
+  }
+}
