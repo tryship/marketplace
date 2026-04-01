@@ -10,6 +10,25 @@
       "tags": ["example", "greeting"],
       "source": "./plugins/hello-world",
       "configSchema": {}
+    },
+    "github-mcp": {
+      "name": "github-mcp",
+      "displayName": "GitHub Integration",
+      "description": "Connect GitHub for issue tracking, PR management, and code review",
+      "type": "mcp",
+      "category": "developer-tools",
+      "tags": ["github", "mcp", "developer-tools"],
+      "source": "./plugins/github-mcp",
+      "configSchema": {
+        "github_token": {
+          "description": "GitHub personal access token",
+          "sensitive": true
+        },
+        "github_org": {
+          "description": "GitHub organization or username",
+          "sensitive": false
+        }
+      }
     }
   }
 }
